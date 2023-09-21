@@ -1,0 +1,131 @@
+
+<!-- saved from url=(0040)http://127.0.0.1:5500/flex-practice.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title> flex practice</title>
+    <link rel="stylesheet" href="./flex practice_files/style.css">
+
+</head><body style="padding-bottom: 1000px;">
+    <div style="display: flex; ">
+        <div style="background-color: lightblue;
+            width: 200px;
+            display: flex;
+            flex-direction: column">200px</div>
+        <div style="background-color: lightpink;
+            width: 75px;
+            display: flex;
+            flex-direction: column;">75px</div>
+
+    </div>
+    <div style="display: flex;
+        margin-top: 30px">
+        <div style="background-color: lightblue;
+            width: 50px;
+            display: flex;
+            flex-direction: column">item1</div>
+        <div style="background-color: lightpink;
+                flex: 2;
+            display: flex;
+            flex-direction: column;">item2</div>
+        <div style="background-color: lightblue;
+            width: 75px;
+            display: flex;
+            flex-direction: column">item3</div>
+
+    </div>
+    <div style="
+        margin-top: 30px; display: flex;
+        flex-direction: space-between;
+        justify-content: space-between;">
+        <div style="width: 50px;
+            background-color: lightpink;">item1</div>
+        <div style="width: 50px; background-color: lightpink;">item2</div>
+        <div style="width: 50px;background-color: lightpink;">item3</div>
+        <div style="width: 50px;background-color: lightpink;">item4</div>
+    </div>
+
+    <div style="display: flex; margin-top: 30px;
+        border-style: solid;
+        height: 70px;
+        border-color: gray;
+        border-width: 1px;
+        justify-content: space-between;
+        align-items: center;">
+        <div style="background-color: lightpink; width: 50px;">item1</div>
+        <div style="background-color: lightpink; width: 50px;">item2</div>
+    </div>
+    <div style="margin-top: 30px;
+    border-style: solid;
+    width: 330px;
+    height: 170px;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 15px;
+    justify-content: center;">
+       
+       <div style="padding-left: 10px;">
+       <div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
+        <div style="margin-top: 5px; font-family: arial; font-weight: bold"> Home </div>
+       <div class="numbers"> 14 </div>
+        </div>
+       <div style="display: flex; justify-content: space-between; margin-bottom: 20px;
+       margin-top: 25px;">
+        <div style="font-family: arial; font-weight: bold;"> Notifications </div>  
+        <div class="numbers"> 3 </div>
+       </div> 
+       <div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
+        <div style="font-family: arial; font-weight: bold;"> Messages </div>
+        <div class="numbers"> 5 </div>
+       </div>
+       
+
+       </div>
+    </div>
+    <div class="border-3"> 
+        <div style="width: 100px; padding-left: 20px; font-family: arial; font-weight: bold;">Home</div>
+        <div style="width: 800px;" class="Search-bar border-none;"> <input type="Search" placeholder="Search"> </div>
+        <div class="download" style="width: 150px;"> download </div>
+    </div>
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+</body></html>

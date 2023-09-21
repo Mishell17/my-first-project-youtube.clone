@@ -1,0 +1,122 @@
+.thumbnail-1 {
+    width: 300px;
+    display: inline-block;
+    margin-bottom: 8px;
+
+}
+.thumbnail-row{
+    position: relative;
+}
+
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    bottom: 15;
+    right: 7;
+    font-size: 12px;
+    font-family: Roboto, arial;
+    font-weight: 400;
+    border-radius: 3px;
+
+
+
+}
+.thumbnail-2 {
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.div-1 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 8px;
+    margin-bottom: 30px;
+
+}
+
+.div-2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 8px;
+}
+
+.channel-picture {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+
+}
+
+.profile {
+    width: 36px;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.video-info {
+    display: inline-block;
+    width: 200px;
+
+}
+
+.video-title {
+    width: 250px;
+    margin-top: 0;
+    margin-bottom: 10   px;
+    font-size: 14px;
+    font-weight: 550;
+    line-height: 20px;
+}
+
+.thumbnail-3{
+    width: 300px;
+    display: inline-block;
+    margin-bottom: 10px;
+    
+}
+.thumbnail-4{
+    width: 300px;
+    display: inline-block;
+    margin-bottom: 10px;
+
+}
+.thumbnail-5{
+    width: 300px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.thumbnail-6{
+    width: 300px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.thumbnail-7{
+    width: 300px;
+    display: inline-block;
+    margin-bottom: 10px;   
+}
+.thumbnail-8{
+    width: 300px;
+    display: inline-block;
+    margin-bottom: 10px;   
+
+}
+.div-5{
+    width: 300px;
+    display: inline-block;
+    margin-bottom: 10px; 
+
+
+}
+
+.parents-2{
+    display: flex;
+
+}
